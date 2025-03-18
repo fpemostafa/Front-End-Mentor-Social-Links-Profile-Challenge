@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root {
+   --color-green: #c5f82a;
+   --color-white: #ffffffff;
+   --color-grey-700: #333333;
+   --color-grey-800: #1f1f1f;
+   --color-grey-900: #141414;
+}
+body {
+   font-family: "Inter", sans-serif;
+   margin: 0 auto;
+   padding: 0;
+   box-sizing: border-box;
+   background-color: var(--color-grey-900);
+   max-width: 1440px;
+}
+p {
+   font-size: 14px;
+}
+
+.container {
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   padding-bottom: 30px;
+   max-width: 390px;
+   margin: 175px auto;
+   padding-top: 40px;
+   border-radius: 15px;
+   background-color: var(--color-grey-800);
+   flex-direction: column;
+}
+.container .profile {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   margin: 0 20px;
+   flex-direction: column;
+   text-align: center;
+}
+.container .profile img {
+   max-width: 90px;
+   height: 90px;
+   border-radius: 100%;
+   margin-bottom: 16px;
+}
+
+.container .profile .profile-info h1 {
+   font-size: 24px;
+   color: var(--color-white);
+   margin: 8px 0;
+   font-weight: 600;
+}
+.container .profile .profile-info .location {
+   color: var(--color-green);
+   font-weight: 600;
+   margin-bottom: 25px;
+}
+.container .profile .profile-info .title {
+   color: var(--color-white);
+   font-weight: 400;
+}
+.social-links {
+   display: flex;
+   justify-content: center;
+   align-items: stretch;
+   margin-top: 15px;
+   flex-direction: column;
+   width: 100%;
+}
+.social-links .button {
+   min-height: 45px;
+   border-radius: 10px;
+   margin: 0 40px;
+   background-color: var(--color-grey-700);
+   color: var(--color-white);
+   border: none;
+   font-size: 16px;
+   font-weight: 700;
+   margin-bottom: 15px;
+}
